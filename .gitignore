@@ -1,8 +1,13 @@
+# xmake build output
 /build/
-/CMakeFiles/
-/*.cmake
+.xmake/
+
+# Compilation artifacts
 *.o
 *.obj
 *.exe
 *.out
 *.log
+
+# IDE/editor-specific files
+.vscode/
