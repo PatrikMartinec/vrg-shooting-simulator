@@ -2,11 +2,11 @@
 #include <glm/glm.hpp>
 
 struct PositionComponent {
-    glm::dvec3 position;
+    glm::dvec3 vector;
 };
 
 struct VelocityComponent {
-    glm::dvec3 velocity;
+    glm::dvec3 vector;
 };
 
 struct MassComponent {
